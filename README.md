@@ -4,14 +4,11 @@ A simple api to return a decoded lightning invoice object based on a payment req
 
 ### Usage
 
-`sh
-GET http://localhost/api/decode/bolt11/lnbc1...
-`
+`GET http://localhost/api/decode/bolt11/lnbc1...`
 
 #### Response
 
-``sh
-{
+`{
 "satsoshis": 967878,
 "milisatoshis": 967878534,
 "expiry_datetime": {
@@ -31,4 +28,4 @@ GET http://localhost/api/decode/bolt11/lnbc1...
 "timezone_type": 1,
 "timezone": "+00:00"
 }
-}
+}`
