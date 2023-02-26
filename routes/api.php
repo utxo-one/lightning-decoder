@@ -28,7 +28,7 @@ Route::get('/decode/bolt11/{bolt11}', function (Request $request) {
 
     $invoice = [
         'satsoshis' => $paymentRequest->getSatoshis(),
-        'milisatoshis' => $paymentRequest->getMilliSatoshis(),
+        'millisatoshis' => $paymentRequest->getMilliSatoshis(),
         'expiry_datetime' => $paymentRequest->getExpiryDateTime(),
         'expiry_timestamp' => $paymentRequest->getExpiryTimestamp(),
         'network' => $paymentRequest->getNetwork(),
