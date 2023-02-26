@@ -33,3 +33,19 @@ GET http://localhost/api/decode/bolt11/lnbc1...
     }
 }
 ```
+
+### Installation
+
+```sh
+git clone https://github.com/utxo-one/lightning-decoder
+```
+
+```sh
+composer update
+```
+
+```sh
+sudo ./vendor/bin/sail up -d
+```
+
+Visit http://localhost/api/decode/bolt11/YOUR-LN-INVOICE-HERE
