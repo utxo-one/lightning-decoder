@@ -13,7 +13,7 @@ GET http://localhost/api/decode/bolt11/lnbc1...
 ```json
 {
     "satsoshis": 967878,
-    "milisatoshis": 967878534,
+    "millisatoshis": 967878534,
     "expiry_datetime": {
         "date": "2019-11-06 20:51:43.000000",
         "timezone_type": 1,
